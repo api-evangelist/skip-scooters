@@ -1,8 +1,26 @@
 aid: skip-scooters
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skip-scooters.png
 name: Skip Scooters
-description: 'Skip Scooters is a company surfaced as a portfolio company of accel and added to the API
-  Evangelist network as a stub for enrichment. Sector: transportation. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Skip Scooters (operated by Skip Transport / Waybots) was a San Francisco-based
+  dockless shared electric scooter (micromobility) startup and one of the early operators
+  permitted in San Francisco, also running fleets in Washington, D.C. Backed by Accel,
+  the company wound down and its assets moved to Helbiz around 2020. It is no longer
+  operating: its former consumer app and rider domains (rideskip.com is a parked
+  for-sale domain, skip.com now resolves to an unrelated retailer) have no live
+  developer, documentation, or API surface. This profile is retained in the API
+  Evangelist network as a historical portfolio-company record; the enrichment
+  pipeline found no public API to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/skip-scooters/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +28,27 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: 'No live domain or developer surface as of 2026-07-21; former rider
+  domains parked or repurposed. Company wound down / assets to Helbiz circa 2020.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Transportation
+- Micromobility
+- Scooters
+- Mobility
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
