@@ -33,6 +33,9 @@ description: 'Skip Scooters (operated by Skip Transport / Waybots) was a San Fra
   Evangelist network as a historical portfolio-company record; the enrichment
   pipeline found no public API to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/skip-scooters/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This profile is retained in the API Evangelist network as a historical portfolio-company record; the enrichment pipeline found no public API to harvest."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
